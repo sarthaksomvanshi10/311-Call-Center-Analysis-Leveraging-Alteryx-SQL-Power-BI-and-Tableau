@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="Path">C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28593</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CASE ID" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="SOURCE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="DEPARTMENT" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="WORK GROUP" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="TYPE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="DETAIL" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="CREATION DATE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="CREATION TIME" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="STATUS" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="EXCEEDED EST TIMEFRAME" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="CLOSED DATE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="DAYS TO CLOSE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="STREET ADDRESS" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="ZIP CODE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="NEIGHBORHOOD" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="COUNTY" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="POLICE DISTRICT" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="PARCEL ID NO" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="LATITUDE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="LONGITUDE" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="CATEGORY1" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="CATEGORY2" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="CATEGORY3" size="254" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91961\AppData\Local\Temp\Engine_12824_13e5d27d00474642993d980e71124c43_\Engine_12824_95bf5d70d8630642a162ca41097c9518~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="654" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" MaxRecords="" Format="23">
+            <SpatialObjSize>8000</SpatialObjSize>
+            <TableStyle>Quoted</TableStyle>
+            <TransactionMessages>False</TransactionMessages>
+            <Table>stg_Kansas_city</Table>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <OutputOption>Overwrite</OutputOption>
+            <Connection DcmType="ConnectionId">2f6a5f25-0cf5-4db1-b441-f13b0999d957</Connection>
+            <Projection />
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dcm:localhost — Test
+Table=stg_Kansas_city</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="318" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="CASE ID" selected="True" />
+            <Field field="SOURCE" selected="True" />
+            <Field field="DEPARTMENT" selected="True" />
+            <Field field="WORK GROUP" selected="True" />
+            <Field field="TYPE" selected="True" />
+            <Field field="DETAIL" selected="True" />
+            <Field field="CREATION DATE" selected="True" />
+            <Field field="CREATION TIME" selected="True" />
+            <Field field="STATUS" selected="True" />
+            <Field field="EXCEEDED EST TIMEFRAME" selected="True" />
+            <Field field="CLOSED DATE" selected="True" />
+            <Field field="DAYS TO CLOSE" selected="True" />
+            <Field field="STREET ADDRESS" selected="True" />
+            <Field field="ZIP CODE" selected="True" />
+            <Field field="NEIGHBORHOOD" selected="True" />
+            <Field field="COUNTY" selected="True" />
+            <Field field="POLICE DISTRICT" selected="True" />
+            <Field field="PARCEL ID NO" selected="True" />
+            <Field field="LATITUDE" selected="True" />
+            <Field field="LONGITUDE" selected="True" />
+            <Field field="CATEGORY1" selected="True" />
+            <Field field="CATEGORY2" selected="True" />
+            <Field field="CATEGORY3" selected="True" />
+            <Field field="FileName" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CASE ID" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="Int32" />
+            <Field name="SOURCE" size="5" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="String" />
+            <Field name="DEPARTMENT" size="35" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="WORK GROUP" size="50" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="TYPE" size="48" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="DETAIL" size="48" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CREATION DATE" size="10" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="String" />
+            <Field name="CREATION TIME" size="8" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="String" />
+            <Field name="STATUS" size="5" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="String" />
+            <Field name="EXCEEDED EST TIMEFRAME" size="1" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="String" />
+            <Field name="CLOSED DATE" size="10" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="String" />
+            <Field name="DAYS TO CLOSE" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="Double" />
+            <Field name="STREET ADDRESS" size="39" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="ZIP CODE" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="Double" />
+            <Field name="NEIGHBORHOOD" size="42" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="COUNTY" size="13" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="POLICE DISTRICT" size="11" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="PARCEL ID NO" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="Int32" />
+            <Field name="LATITUDE" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="Double" />
+            <Field name="LONGITUDE" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="Double" />
+            <Field name="CATEGORY1" size="33" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CATEGORY2" size="9" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="CATEGORY3" size="12" source="File: C:\Users\91961\Downloads\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv\311_CallCenterServiceRequests_KansasCity_2007-March2021.tsv" type="V_String" />
+            <Field name="FileName" size="144" source="File: FileName" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="246" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">CASE ID=True,SOURCE=True,DEPARTMENT=True,WORK GROUP=True,TYPE=True,DETAIL=True,CREATION DATE=True,CREATION TIME=True,STATUS=True,EXCEEDED EST TIMEFRAME=True,CLOSED DATE=True,DAYS TO CLOSE=True,STREET ADDRESS=True,ZIP CODE=True,NEIGHBORHOOD=True,COUNTY=True,POLICE DISTRICT=True,PARCEL ID NO=True,LATITUDE=True,LONGITUDE=True,CATEGORY1=True,CATEGORY2=True,CATEGORY3=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91961\AppData\Local\Temp\Engine_12824_13e5d27d00474642993d980e71124c43_\Engine_12824_6daf45579f3564489f6cf2d2f880769b~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="498" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91961\AppData\Local\Temp\Engine_12824_13e5d27d00474642993d980e71124c43_\Engine_12824_d06e879d986b8f4db60bf4ff5bc039e2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91961\AppData\Local\Temp\Engine_12824_13e5d27d00474642993d980e71124c43_\Engine_12824_f5e414232f44d0468f90ad34a231d46d~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="'damg7370'" field="CREATED BY" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CREATED BY = 'damg7370'
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="Created_Date_Time" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Created_Date_Time = DateTimeNow()
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="126" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[DAYS TO CLOSE] &gt;= "0"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[DAYS TO CLOSE] &gt;= "0"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="222" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"CASE ID","SOURCE","DEPARTMENT","WORK GROUP","TYPE","DETAIL","CREATION DATE","CREATION TIME","STATUS","EXCEEDED EST TIMEFRAME","CLOSED DATE","DAYS TO CLOSE","STREET ADDRESS","ZIP CODE","NEIGHBORHOOD","COUNTY","POLICE DISTRICT","PARCEL ID NO","LATITUDE","LONGITUDE","CATEGORY1","CATEGORY2","CATEGORY3","FileName"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Reports" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Interactive" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="18" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output26" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Individual_Project_CODE_FILE</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9dc50651-314b-4b27-9416-84e4d740e579" />
+      <Telemetry>
+        <PreviousWorkflowId value="09aa27c2-804f-4e8c-8e4f-537fef1778b7" />
+        <OriginWorkflowId value="453fb203-034d-4323-a8c3-430cad388a71" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
